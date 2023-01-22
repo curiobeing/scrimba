@@ -29,3 +29,16 @@ so we wrap img and other data in 2 divs
     box-shadow: 2px 5px 6px rgb(226, 226, 226);
 }
 
+a {
+    display: block;
+    margin-top: 200px;
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
