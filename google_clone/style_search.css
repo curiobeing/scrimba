@@ -1,0 +1,74 @@
+/* 
+we align the image to the center by setting width, display to block and margin left & right to auto 
+*/
+img {
+    width: 250px;
+    display: block;
+    margin: 100px auto 20px auto;
+}
+
+/* 
+we align the input field to the center by setting display to block and margin left & right to auto
+width may not be required as it has default with
+*/
+input {
+    display: block;
+    margin: auto;
+    line-height: 24px;
+    width: 350px;
+    padding: 8px 24px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 24px;
+}
+
+input:hover {
+    box-shadow: 0px 1px 6px rgb(223, 223, 223);
+}
+
+button {
+    padding: 10px 16px;
+    margin-right: 8px;
+    margin-top: 12px;
+    background-color: #f0f1f1;
+    border: none;
+    border-radius: 4px;
+    /* font-weight does not seem to affect */
+    font-weight: lighter;
+}
+
+button:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+/* 
+we align the button by using div and setting div's display to flex. We can also align the buttons to center by using text-align: center;
+*/
+#btn-wrapper {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+/* body {
+    text-align: center;
+} */
+
+/* 
+we can align a to the center by using text-align:center on body
+but if we don't set display of a as block, margin-top will not work. So better to go with display: block and text-align:center directly on a tag
+*/
+a {
+    display: block;
+    text-align: center;
+    /* margin does not work here if display is inline */
+    margin-top: 200px;
+    color: #979797;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}

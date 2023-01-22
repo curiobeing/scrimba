@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 150px;
+}
+
+/* 
+flex shows direct children in col fashion 
+so we wrap img and other data in 2 divs
+*/
+.card {
+    padding: 20px;
+    background: #ddebf8;
+    /* to align children in columnar */
+    display: flex;
+    /* so that it will not take up entire width as flex is block */
+    width: 500px;
+    justify-content: space-around;
+    border-bottom: 6px solid #03045e;
+    border-radius: 8px;
+    text-align: center;
+    /* for center alignment */
+    margin: 40px auto;
+}
+
+.card:hover {
+    box-shadow: 2px 5px 6px rgb(226, 226, 226);
+}
+
