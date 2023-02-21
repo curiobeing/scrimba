@@ -54,15 +54,20 @@ we align the button by using div and setting div's display to flex. We can also 
     text-align: center;
 } */
 
+.privacy {
+    text-align: center;
+    margin-top: 180px;
+}
+
 /* 
 we can align a to the center by using text-align:center on body
 but if we don't set display of a as block, margin-top will not work. So better to go with display: block and text-align:center directly on a tag
 */
-a {
+.home {
     display: block;
     text-align: center;
     /* margin does not work here if display is inline */
-    margin-top: 200px;
+    margin-top: 20px;
     color: #979797;
     text-decoration: none;
     font-family: sans-serif;

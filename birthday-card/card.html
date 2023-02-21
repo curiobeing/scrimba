@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Happy Birthday Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/birthday-card/style-card.css" />
+</head>
+
+<body>
+    <div class="header">
+        <h1>Today is Dummy's birthday 🎉</h1>
+        <img class="main-img" src="/birthday-card/bday_boy.webp" />
+        <h2>26 years old</h2>
+        <h4>21.02.2023</h4>
+    </div>
+
+    <!-- we wrap inside gift-section div only for top margin -->
+    <div class="gift-section">
+        <!-- we have class for h2 & h3 only for adjusting margin - i.e. space between these 2 -->
+        <h2 class="gift-title">Here's how happy I'm for you 🥳</h2>
+        <h3 class="gift-hint">(Hover over the gift)</h3>
+        <!-- we have to use div here instead of img as we can't work hover with img -->
+        <!-- <img class="gift-cover" src="/birthday-card/gift-cover.jpg"> -->
+        <div class="gift-cover gift-img1"></div>
+    </div>
+
+    <div class="gift-section">
+        <h2 class="gift-title">How people react when you enter the room 🤩</h2>
+        <div class="gift-cover gift-img2"></div>
+    </div>
+
+    <div class="gift-section">
+        <h2 class="gift-title">If I had to describe you with one word 👇</h2>
+        <div class="gift-cover gift-img3"></div>
+    </div>
+
+    <div class="gift-section">
+        <h2 class="gift-title">The only person as badass as you 💪</h2>
+        <div class="gift-cover gift-img4"></div>
+    </div>
+
+    <div class="gift-section">
+        <h2 class="gift-title">This one's for you my friend 🥂</h2>
+        <!-- we use id here for diff height -->
+        <div class="gift-cover" id="gift-img5"></div>
+    </div>
+
+    <p class="footer">
+        Want to create your own Birthday GIFt site? Take
+        <a href="https://scrimba.com/learn/htmlandcss" target="_blank">this HTML & CSS course.</a>
+    </p>
+
+    <a href="/index.html" class="home">Home</a>
+</body>
+
+</html>

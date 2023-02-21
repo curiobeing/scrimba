@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    background-image: url("https://www.planetware.com/wpimages/2020/03/singapore-in-pictures-beautiful-places-to-photograph-marina-bay-sands.jpg");
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.hero-title {
+    margin: 30px 0 0;
+    color: cadetblue;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.hero-text {
+    background-color: bisque;
+    width: 250px;
+    margin: 20px 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.activities-section {
+    background-color: cadetblue;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    /* padding: 20px; */
+    width: 220px;
+}
+
+.activities-title {
+    margin-top: 0;
+}
+
+.activity-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.guide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    margin: 20px auto;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 6px;
+    border-bottom: 6px solid burlywood;
+}
+
+.guide-img {
+    width: 150px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+a {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}

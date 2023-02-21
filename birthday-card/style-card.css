@@ -1,0 +1,110 @@
+body {
+    /* align all items to center */
+    text-align: center;
+    /* to add background gradient color */
+    background: linear-gradient(rgb(155, 215, 252), rgb(247, 165, 178));
+    /* to set font style */
+    font-family: "Happy Monkey", cursive;
+}
+
+.main-img {
+    /* to adjust image size */
+    width: 250px;
+    /* to make image round */
+    border-radius: 50%;
+    border: 6px solid pink;
+    margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    /* to change font color */
+    color: white;
+    /* to improve readability we add shadow */
+    text-shadow: 0 0 1px black;
+}
+
+.header>h2,
+h4 {
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0px;
+}
+
+.gift-cover {
+    background-image: url("/birthday-card/gift-cover.jpg");
+    background-size: cover;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+.gift-img1:hover {
+    background-image: url("https://media.giphy.com/media/chzz1FQgqhytWRWbp3/giphy.gif");
+}
+
+.gift-img2:hover {
+    background-image: url("https://media.giphy.com/media/vKHKDIdvxvN7vTAEOM/giphy.gif");
+}
+
+.gift-img3:hover {
+    background-image: url("https://media.giphy.com/media/3KCOFfdqmptLi/giphy.gif");
+}
+
+.gift-img4:hover {
+    background-image: url("https://media.giphy.com/media/3ov9jWu7BuHufyLs7m/giphy.gif");
+}
+
+#gift-img5 {
+    height: 200px;
+}
+
+#gift-img5:hover {
+    background-image: url("https://media.giphy.com/media/8Iv5lqKwKsZ2g/giphy.gif");
+}
+
+a {
+    color: white;
+}
+
+.footer {
+    width: 400px;
+    margin: 40px auto 20px;
+    font-style: italic;
+}
+
+.home {
+    color: black;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: blue;
+    text-decoration: underline;
+}

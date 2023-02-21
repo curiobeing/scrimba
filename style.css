@@ -1,11 +1,13 @@
 /* ?should we use body/html here */
 body {
     background-color: azure;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 h1 {
-    text-align: center;
-    font-family: sans-serif;
+    /* text-align: center; */
+    /* font-family: sans-serif; */
 }
 
 ul {
@@ -24,6 +26,7 @@ a {
     background-color: blanchedalmond;
     padding: 6px;
     border-radius: 6px;
+    /* if we have display: flex; on ul, this may not be required */
     display: block;
     text-decoration: none;
 }
