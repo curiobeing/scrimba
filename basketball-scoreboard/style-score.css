@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #19244d;
+    padding: 10px 10px 30px;
+    margin-bottom: 30px;
+}
+
+.team-name {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+@font-face {
+    font-family: "cursed-time";
+    src: url("/basketball-scoreboard/Cursed-Timer.ttf");
+}
+
+.score {
+    font-size: 90px;
+    color: #F94F6D;
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    font-family: "cursed-time";
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.score-handler {
+    background: none;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    margin-right: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "cursed-time";
+}
+
+.score-handler:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.new-game {
+    background: #19244d;
+    /* border: 2px solid #9AABD8; */
+    width: 120px;
+    height: 45px;
+    ;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.new-game:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: grey;
+    margin-top: 50px;
+    font-family: "cursed-time";
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}

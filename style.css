@@ -27,7 +27,7 @@ a {
     padding: 6px;
     border-radius: 6px;
     /* if we have display: flex; on ul, this may not be required */
-    display: block;
+    /* display: block; */
     text-decoration: none;
 }
 

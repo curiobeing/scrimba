@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="/basketball-scoreboard/style-score.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3 class="team-name" id="home-el">HOME</h3>
+            <h1 class="score" id="home-score">0</h1>
+            <button class="score-handler" onclick="plusOne('home')">+1</button>
+            <button class="score-handler" onclick="plusTwo('home')">+2</button>
+            <button class="score-handler" onclick="plusThree('home')">+3</button>
+        </div>
+        <div>
+            <h3 class="team-name" id="guest-el">GUEST</h3>
+            <h1 class="score" id="guest-score">0</h1>
+            <button class="score-handler" onclick="plusOne('guest')">+1</button>
+            <button class="score-handler" onclick="plusTwo('guest')">+2</button>
+            <button class="score-handler" onclick="plusThree('guest')">+3</button>
+        </div>
+    </div>
+    <button class="new-game" onclick="newGame()">New Game</button>
+
+    <a href="/index.html">Home</a>
+
+    <script src="/basketball-scoreboard/score.js"></script>
+</body>
+
+</html>
