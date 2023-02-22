@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1677035149715-7b21561d0202?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80");
+    background-size: cover;
+    /* height: 100vh; */
+    margin: 0;
+
+}
+
+.container {
+    /* width: 350px; */
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: burlywood;
+    border-radius: 6px;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+#count-el {
+    font-size: 50px;
+}
+
+button {
+    /* to show buttons in separate lines */
+    display: block;
+    /* to center buttons */
+    margin: 10px auto;
+    padding: 10px;
+    /* height: 40px; */
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background-color: crimson;
+}
+
+#save-btn {
+    background-color: teal;
+    margin-bottom: 40px;
+}
+
+p {
+    font-weight: bold;
+}
+
+#reset-btn {
+    background-color: grey;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: chartreuse;
+    text-decoration: underline;
+}
