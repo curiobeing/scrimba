@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Password Generator🔐</title>
+    <link rel="stylesheet" href="/password-generator/style-generator.css">
+</head>
+
+<body>
+    <div id="main-div">
+        <h1>Generate a
+            <br>
+            <span>random password</span>
+        </h1>
+        <p>Never use an insecure password again.</p>
+
+        <div>
+            <label for="pw-length">Password Length</label>
+            <input type="number" id="pw-length-input" value="15" min="1" max="22">
+            <p id="hint">Default is 15 and max is 22</p>
+
+            <br>
+
+            <label for="Symbols">Symbols</label>
+            <input type="checkbox" name="symbols" id="symbols-el" checked>
+            <label for="numbers"> <span>|</span> Numbers</label>
+            <input type="checkbox" name="numbers" checked>
+
+        </div>
+
+        <button onclick="generator()">Generate passwords</button>
+
+        <div id="line"></div>
+
+        <div id="generated-passwords">
+            <p id="password1" class="passwords"></p>
+            <p id="password2" class="passwords"></p>
+        </div>
+        <p id="hint">Click on the password to copy</p>
+    </div>
+
+    <script src="/password-generator/generator.js"></script>
+</body>
+
+</html>
