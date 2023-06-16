@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: #1b1924;
+    user-select: none;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* max-width: 320px; */
+    padding: 10px 30px;
+    margin: 30px auto;
+}
+
+img {
+    width: 90px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: whitesmoke;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+textarea {
+    background-color: #444059;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    color: whitesmoke;
+    resize: none;
+}
+
+.from-to-container {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    background-color: #444059;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    color: whitesmoke;
+    resize: none;
+}
+
+#publish-btn {
+    background-color: #28A9F1;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    color: #04131C;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+#publish-btn:hover {
+    background-color: #1d99dc;
+}
+
+#publish-btn:active {
+    background-color: #0a72ab;
+}
+
+.seperator-el {
+    color: whitesmoke;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 20px auto 10px auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: whitesmoke;
+    padding: 12px;
+    border-radius: 4px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* for from and to */
+#endorsements-ul p {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+/* for container holding from and like & delete buttons */
+.actions-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* for like & delete buttons */
+.actions-div button {
+    background-color: whitesmoke;
+    border: 1px solid #1f232826;
+    border-radius: 4px;
+    height: 30px;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+/* like & delete buttons */
+.actions-div button:active {
+    background-color: #ebecf0;
+}

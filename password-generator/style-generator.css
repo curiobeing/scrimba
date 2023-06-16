@@ -116,3 +116,8 @@ button:hover {
     font-size: 12px;
     color: #d5d4d885;
 }
+
+a {
+    display: block;
+    color: thistle;
+}
