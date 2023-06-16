@@ -12,7 +12,7 @@ body {
     gap: 10px;
     /* max-width: 320px; */
     padding: 10px 30px;
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
 img {
@@ -83,7 +83,7 @@ input {
     color: whitesmoke;
     font-family: 'Josefin Sans';
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
     margin: 20px auto 10px auto;
 }
