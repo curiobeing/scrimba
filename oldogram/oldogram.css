@@ -1,11 +1,13 @@
 body {
     margin: 0;
     font-family: 'Source Sans 3', sans-serif;
+    background-color: #f9f4f4;
 }
 
 .container {
-    width: 375px;
+    max-width: 375px;
     margin: 0 auto;
+    background-color: white;
 }
 
 /* for logo and profile img */
