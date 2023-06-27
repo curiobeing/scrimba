@@ -13,6 +13,12 @@ const closeModalBtn = document.getElementById("close-modal-btn");
 // the modal container to be closed
 const modalContainer = document.getElementById("modal-container");
 
+// decline button
+const declineBtn = document.getElementById("decline-btn");
+
+// to reverse the buttons direction
+const choiceBtnsContainer = document.getElementById("choice-btns-container");
+
 // we show the modal after 1.5 sec of the page load
 setTimeout(function () {
   modalContainer.style.display = "inline";
@@ -50,4 +56,8 @@ formEl.addEventListener("submit", function (e) {
 
     closeModalBtn.disabled = false;
   }, 3000);
+});
+
+declineBtn.addEventListener("mouseenter", function () {
+  choiceBtnsContainer.classList.toggle("reverse");
 });
