@@ -15,6 +15,7 @@ ul {
     padding: 20px 40px;
     display: flex;
     /* justify-content: center; */
+    /* align-items: center; */
     /* without this, li gets squished in single line */
     flex-wrap: wrap;
     /* without this there is no space above and below li as margin does not affect inline items */
