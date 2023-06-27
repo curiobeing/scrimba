@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 18px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.li-green {
+    background-color: #E5FDEA
+}
+
+.li-yellow {
+    background-color: #FCFDD6
+}
+
+.li-blue {
+    background-color: #E5F9FE
+}
+
+.li-pink {
+    background-color: #FCF1FE
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* modal */
+
+.modal-container {
+    background-color: #212529;
+    color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    font-size: 16px;
+    height: 420px;
+    max-width: 350px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+.close-btn-container {
+    text-align: right;
+    margin: 9px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#close-modal-btn {
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 22px;
+    border: none;
+}
+
+#close-modal-btn:hover,
+#close-modal-btn:active {
+    color: red;
+}
+
+#close-modal-btn:disabled {
+    /* we add color here, else hover color will take effect when hovered */
+    color: whitesmoke;
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.modal-inner {
+    width: 290px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #212529;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.choice-btns-container {
+    text-align: center;
+    padding: 10px 16px;
+}
+
+button {
+    padding: 10px 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#upload-text {
+    margin: 32px 0;
+    text-align: center;
+}
+
+span {
+    color: fuchsia;
+}
