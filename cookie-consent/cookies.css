@@ -112,8 +112,14 @@ input {
 }
 
 .choice-btns-container {
-    text-align: center;
     padding: 10px 16px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
 }
 
 button {
